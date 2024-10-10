@@ -1,1 +1,43 @@
-command_list.csv
+    1  git config --global user.name "Uliana Stepanenko"
+    2  git config --global user.email uliana.stepanenko03@gmail.com
+    3  git clone https://github.com/ulliana03/HW_10.git
+    4  cd HW_10
+    5  touch text_ignore.txt
+    6  none .gitignore
+    7  nano .gitignore
+    8  cd Git
+    9  cd HW_10
+   10  git status
+   11  touch text_ignore.txt
+   12  nano .gitignore
+   13  git status
+   14  git add .
+   15  git status
+   16  git commit -m "Homework added"
+   17  ls
+   18  touch command_list.csv
+   19  nano command_list.csv
+   20  git add command_list.csv
+   21  git commit -m "command_list added"
+   22  git status
+   23  git push
+   24  touch main_test.txt
+   25  git add .
+   26  git commit -m "main_text added"
+   27  git checkout -b develop
+   28  touch develop_test.txt
+   29  git add .
+   30  git commit -m "develop added"
+   31  nano develop_test.txt
+   32  git status
+   33  git add .
+   34  git commit -m "develop_test changed"
+   35  git status
+   36  nano develop_test.txt
+   37  git status
+   38  git add .
+   39  commit -m "develop_test changend again"
+   40  git checkout main
+   41  git merge develop
+   42  git log
+   43  history > command_list.csv
